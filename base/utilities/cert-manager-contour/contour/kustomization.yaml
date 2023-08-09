@@ -7,7 +7,7 @@ resources:
 - contour-package-install.yaml
 secretGenerator:
 - name: contour-packages-values
-  namespace: tanzu-package-repo-global
+  namespace: tkg-user-packages
   files:
   - contour.yaml
   type: Opaque

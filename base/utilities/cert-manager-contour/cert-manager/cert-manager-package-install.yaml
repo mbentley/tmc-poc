@@ -9,7 +9,7 @@ metadata:
     kapp.k14s.io/update-strategy: "fallback-on-replace"
     kapp.k14s.io/create-strategy: "fallback-on-replace"
   name: cert-manager
-  namespace: tanzu-package-repo-global
+  namespace: tkg-user-packages
 spec:            # TK test
   serviceAccountName: cert-manager-packages-sa
   packageRef:
